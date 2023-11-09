@@ -13,12 +13,12 @@ from decouple import config
 from pathlib import Path
 import os
 
-APP_URL = "http://localhost:3000"
-HOST_URL = "http://127.0.0.1:8000"
+# APP_URL = "http://localhost:3000"
+# HOST_URL = "http://127.0.0.1:8000"
 
-# # Prod
-# APP_URL = "https://avahan2022.netlify.app"
-# HOST_URL = "http://prathameshramane.engineer/"
+# Prod
+APP_URL = "https://avahan-portal.vercel.app"
+HOST_URL = "http://avahan24.live/"
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -33,9 +33,9 @@ SECRET_KEY = 'django-insecure-%=_nj-_@7cx%ikh3poyp&2aj!xn44oewyang$vc5mb$y)!0_(&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '64.227.166.216', '139.59.21.151',
-                 'prathameshramane.engineer', 'www.prathameshramane.engineer',
-                 'eventapp.prathameshramane.engineer', 'www.eventapp.prathameshramane.engineer']
+ALLOWED_HOSTS = ['127.0.0.1', '143.244.136.17', '10.122.0.2',
+                 'avahan24.live', 'www.avahan24.live',
+                 'eventapp.avahan24.live', 'www.eventapp.avahan24.live']
 
 # Application definition
 
@@ -164,7 +164,7 @@ REST_FRAMEWORK = {
 
 # CORS
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost',
+    'http://localhost','http://avahan24.live/','http://eventapp.avahan24.live/'
 ]
 
 

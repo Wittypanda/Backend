@@ -6,7 +6,9 @@ HOST_URL = "http://127.0.0.1:8000"
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', '143.244.136.17', '10.122.0.2',
+                 'avahan24.live', 'www.avahan24.live',
+                 'eventapp.avahan24.live', 'www.eventapp.avahan24.live']
 
 DATABASES = {
     'default': {
