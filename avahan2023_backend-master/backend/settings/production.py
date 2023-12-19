@@ -10,9 +10,9 @@ ALLOWED_HOSTS = ['134.209.154.26','10.122.0.2','avahan24.live', 'www.avahan24.li
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': config('DB_NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASSWORD'),
+        'NAME': 'avahan_2024',
+        'USER': 'avahan_user',
+        'PASSWORD': 'avahan',
         'HOST': 'localhost',
     }
 }
