@@ -88,15 +88,15 @@ def check_if_exists(data):
 
     current_limit = {
         'FE': {
-            'COMP': 3,
+            'COMP': 1,
             'IT': 1,
             'EXTC': 1,
             'CIVIL': 1,
-            'MECH_A': 1,
-            'MECH_B': 1,
+            'MECH_A': 0,
+            'MECH_B': 0,
             'INST': 0,
             'ASH': 0,
-            'AIDS': 1,
+            'AIDS': 0,
             'CSE/DS': 1
         },
         'SE': {
@@ -118,7 +118,7 @@ def check_if_exists(data):
             'CIVIL': 1,
             'MECH_A': 1,
             'MECH_B': 1,
-            'INST': 1,
+            'INST': 0,
             'ASH': 0,
             'AIDS': 1,
             'CSE/DS': 1
@@ -132,8 +132,8 @@ def check_if_exists(data):
             'MECH_B': 2,
             'INST': 2,
             'ASH': 0,
-            'AIDS': 0,
-            'CSE/DS': 0
+            'AIDS': 2,
+            'CSE/DS': 2
         },
         'D': {
             'COMP': 1,

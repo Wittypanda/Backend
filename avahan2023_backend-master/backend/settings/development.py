@@ -6,10 +6,7 @@ HOST_URL = "http://127.0.0.1:8000"
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '143.244.136.17', '10.122.0.2',
-                 'avahan24.live', 'www.avahan24.live',
-                 'eventapp.avahan24.live', 'www.eventapp.avahan24.live']
-
+ALLOWED_HOSTS = ['134.209.154.26','10.122.0.2','avahan24.live', 'www.avahan24.live','localhost','127.0.0.1']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -21,8 +18,9 @@ DATABASES = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
+    'https://avahan24.live', 'https://avahan-portal.vercel.app/' , 'https://localhost:3000'
 ]
+
 
 # Email Credentials
 # EMAIL_HOST_USER = config('EMAIL_HOST_USER')

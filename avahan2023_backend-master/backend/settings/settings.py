@@ -33,10 +33,7 @@ SECRET_KEY = 'django-insecure-%=_nj-_@7cx%ikh3poyp&2aj!xn44oewyang$vc5mb$y)!0_(&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '143.244.136.17', '10.122.0.2',
-                 'avahan24.live', 'www.avahan24.live',
-                 'eventapp.avahan24.live', 'www.eventapp.avahan24.live']
-
+ALLOWED_HOSTS = ['134.209.154.26','10.122.0.2','avahan24.live', 'www.avahan24.live','localhost','127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
@@ -164,8 +161,9 @@ REST_FRAMEWORK = {
 
 # CORS
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost','http://avahan24.live/','http://eventapp.avahan24.live/'
+    'https://avahan24.live', 'https://avahan-portal.vercel.app/' , 'https://localhost:3000'
 ]
+
 
 
 # EMAIL Settings
