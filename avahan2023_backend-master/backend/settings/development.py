@@ -30,5 +30,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = ' vcet.sports@vcet.edu.in'
-EMAIL_HOST_PASSWORD = 'qvhjgjfoyzmzqogj'
+EMAIL_HOST_USER = 'input email address here'
+EMAIL_HOST_PASSWORD = 'input google app password here'
